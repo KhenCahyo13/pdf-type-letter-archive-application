@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Finlandica', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.nav .sidenav-header {
+    font-size: 16px;
+    padding: 14px;
+    text-align: center;
+}
+
+.nav .nav-link {
+    font-size: 14px;
+}
+
+.main-header {
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.main-text {
+    font-size: 18px;
+}
+
+.search-input {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.search-input .form-label {
+    font-size: 18px;
+    justify-items: start;
+}
+
+.search-input .form-control {
+    width: 50%;
+    border-radius: 12px;
+    margin-left: 8px;
+    margin-top: -6px;
+}
+
+.search-input .btn-success {
+    margin-left: 8px;
+    margin-top: -6px;
+}
+
+.card .card-header {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+thead tr th {
+    font-size: 17px;
+}
+
+tbody tr td {
+    font-size: 16px;
+}
+
+.text-muted {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.hero-image img {
+    border-radius: 14px;
+    border: 2px solid #1E1E1E;
+}
+
+.hero .hero-text h4 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.hero .hero-text p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.right-btn {
+    float: right;
+}
+
+.notes {
+    font-size: 18px;
+}
+
+.note {
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.text-note {
+    font-size: 16px;
+    margin-top: -16px;
+    margin-bottom: 24px;
+}
+
+.label-surat label {
+    margin-right: 34px;
+}
+
+.label-kategori label {
+    margin-right: 63px;
+}
+
+.label-judul label {
+    margin-right: 83px;
+}
+
+.label-file label {
+    margin-right: 10px;
+}
+
+@media screen and(max-width: 768px){
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .hero-image img {
+        border-radius: 14px;
+        border: 2px solid #1E1E1E;
+    }
+
+    tbody tr td a button {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and(max-width: 576px){
+    .hero {
+        display: block;
+    }
+
+    .hero-image img {
+        border-radius: 14px;
+        border: 2px solid #1E1E1E;
+        margin-bottom: 15px;
+    }
+
+    tbody tr td a button {
+        margin-bottom: 5px;
+    }
+
+    .card-footer {
+        display: block;
+    }
+
+    .card-footer .btn-danger {
+        margin-bottom: 5px;
+    }
+
+    .card-footer .right-btn .btn-primary {
+        margin-bottom: 5px;
+    }
+
+    form {
+        display: block;
+    }
+}
